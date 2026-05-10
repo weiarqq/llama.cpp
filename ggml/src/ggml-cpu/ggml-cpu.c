@@ -72,6 +72,16 @@
 #define UNUSED GGML_UNUSED
 #define SWAP(x, y, T) do { T SWAP = x; (x) = y; (y) = SWAP; } while (0)
 
+static bool ggml_cpu_graph_node_timing_enabled(void) {
+    const char * env = getenv("GGML_CPU_GRAPH_NODE_TIMING");
+    return env != NULL && strcmp(env, "0") != 0;
+}
+
+static bool ggml_cpu_mul_mat_id_batch1_fast_enabled(void) {
+    const char * env = getenv("GGML_CPU_MUL_MAT_ID_BATCH1_FAST");
+    return env == NULL || strcmp(env, "0") != 0;
+}
+
 // precomputed f32 table for f16 (256 KB) (simd-mappings.h)
 float ggml_table_f32_f16[1 << 16];
 
@@ -1504,6 +1514,45 @@ static void ggml_compute_forward_mul_mat_id_one_chunk(
     }
 }
 
+static void ggml_compute_forward_mul_mat_id_one_token(
+    const struct ggml_compute_params * params,
+    struct ggml_tensor * dst,
+    const struct ggml_tensor * src0,
+    const struct ggml_tensor * src1,
+    const struct ggml_tensor * ids,
+    const bool src1_cont,
+    const void * wdata) {
+
+    GGML_TENSOR_BINARY_OP_LOCALS
+
+    const enum ggml_type type = src0->type;
+
+    ggml_vec_dot_t const vec_dot = type_traits_cpu[type].vec_dot;
+    enum ggml_type const vec_dot_type = type_traits_cpu[type].vec_dot_type;
+
+    const char * src1_col = (const char *) wdata;
+    if (!src1_cont && src1->type == vec_dot_type) {
+        src1_col = (const char *) src1->data;
+    }
+
+    const int64_t nr0 = ne01;
+    const int64_t n_ids = ids->ne[0];
+    const int64_t n_work = nr0*n_ids;
+
+    for (int64_t i = params->ith; i < n_work; i += params->nth) {
+        const int64_t iid = i / nr0;
+        const int64_t ir0 = i - iid*nr0;
+
+        const int32_t id = *(const int32_t *) ((const char *) ids->data + iid*ids->nb[0]);
+        assert(id >= 0 && id < ne02);
+
+        const char * src0_cur = (const char *) src0->data + id*nb02;
+        float * dst_col = (float *) ((char *) dst->data + iid*nb1);
+
+        vec_dot(ne00, &dst_col[ir0], 0, src0_cur + ir0*nb01, 0, src1_col, 0, 1);
+    }
+}
+
 static void * incr_ptr_aligned(void ** p, size_t size, size_t align) {
 
     void * ptr = *p;
@@ -1598,6 +1647,15 @@ static void ggml_compute_forward_mul_mat_id(
             }
         }
 #endif
+    }
+
+    if (ggml_cpu_mul_mat_id_batch1_fast_enabled() && ids->ne[1] == 1 && ne11 == 1) {
+        const void * wdata = (src1->type == vec_dot_type) ? src1->data : params->wdata;
+
+        ggml_barrier(params->threadpool);
+
+        ggml_compute_forward_mul_mat_id_one_token(params, dst, src0, src1, ids, src1_cont, wdata);
+        return;
     }
 
     if (ith == 0) {
@@ -2995,6 +3053,9 @@ static thread_ret_t ggml_graph_compute_thread(void * data) {
             continue;
         }
 
+        const bool do_node_timing = ggml_cpu_graph_node_timing_enabled();
+        const int64_t t_start_us = do_node_timing && state->ith == 0 ? ggml_time_us() : 0;
+
         ggml_compute_forward(&params, node);
 
         if (state->ith == 0 && cplan->abort_callback &&
@@ -3003,8 +3064,16 @@ static thread_ret_t ggml_graph_compute_thread(void * data) {
             tp->ec    = GGML_STATUS_ABORTED;
         }
 
-        if (node_n + 1 < cgraph->n_nodes) {
+        if (node_n + 1 < cgraph->n_nodes || do_node_timing) {
             ggml_barrier(state->threadpool);
+        }
+
+        if (do_node_timing && state->ith == 0) {
+            const int64_t t_end_us = ggml_time_us();
+            fprintf(stderr,
+                    "%s: node %4d/%-4d op %-16s time %9.3f ms nth %3d name '%s' ne [ %" PRId64 ", %" PRId64 ", %" PRId64 ", %" PRId64 " ]\n",
+                    __func__, node_n, cgraph->n_nodes, ggml_op_name(node->op), (t_end_us - t_start_us) / 1000.0,
+                    params.nth, node->name, node->ne[0], node->ne[1], node->ne[2], node->ne[3]);
         }
     }
 

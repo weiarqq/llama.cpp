@@ -1,110 +1,138 @@
 # Instructions for llama.cpp
 
+## 语言 / Language
+
+使用中文回复所有问题。所有输出、解释、摘要均使用中文。
+
+---
+
 > [!IMPORTANT]
 > This project does **not** accept pull requests that are fully or predominantly AI-generated. AI tools may be utilized solely in an assistive capacity.
 >
 > Read more: [CONTRIBUTING.md](CONTRIBUTING.md)
 
-AI assistance is permissible only when the majority of the code is authored by a human contributor, with AI employed exclusively for corrections or to expand on verbose modifications that the contributor has already conceptualized (see examples below).
-
 ---
 
-## Guidelines for Contributors Using AI
+## Build
 
-llama.cpp is built by humans, for humans. Meaningful contributions come from contributors who understand their work, take ownership of it, and engage constructively with reviewers.
+**CMake only** — the root `Makefile` is deprecated and redirects to CMake.
 
-Maintainers receive numerous pull requests weekly, many of which are AI-generated submissions where the author cannot adequately explain the code, debug issues, or participate in substantive design discussions. Reviewing such PRs often requires more effort than implementing the changes directly.
+```bash
+# CPU build
+cmake -B build
+cmake --build build --config Release -j 8
 
-**A pull request represents a long-term commitment.** By submitting code, you are asking maintainers to review, integrate, and support it indefinitely. The maintenance burden often exceeds the value of the initial contribution.
+# Debug build
+cmake -B build -DCMAKE_BUILD_TYPE=Debug
+cmake --build build
 
-Most maintainers already have access to AI tools. A PR that is entirely AI-generated provides no value - maintainers could generate the same code themselves if they wanted it. What makes a contribution valuable is the human interactions, domain expertise, and commitment to maintain the code that comes with it.
+# Use presets (Ninja, RPATH configured):
+cmake --preset x64-linux-gcc-release
+cmake --build build-x64-linux-gcc-release
 
-This policy exists to ensure that maintainers can sustainably manage the project without being overwhelmed by low-quality submissions.
+# Build with tests
+cmake -B build -DLLAMA_BUILD_TESTS=ON
+cmake --build build
+ctest --test-dir build
+```
 
----
+Binaries go to `build/bin/`.
 
-## Guidelines for Contributors
+## Testing
 
-Contributors are expected to:
+```bash
+# Run all tests
+ctest --test-dir build
 
-1. **Demonstrate full understanding of their code.** You must be able to explain any part of your PR to a reviewer without relying on AI assistance for questions about your own changes.
+# Run specific test by name
+ctest --test-dir build -R test-tokenizer-0
 
-2. **Take responsibility for maintenance.** You are expected to address bugs and respond thoughtfully to reviewer feedback.
+# Run specific test by regex with debug/build script
+./scripts/debug-test.sh test-tokenizer
+./scripts/debug-test.sh test-tokenizer 3  # test #3
+./scripts/debug-test.sh -g test-tokenizer  # in GDB
+```
 
-3. **Communicate clearly and concisely.** Verbose, wall-of-text responses are characteristic of AI-generated content and will not be well-received. Direct, human communication is expected.
+Run the full local CI before publishing (see [ci/README.md](ci/README.md)):
+```bash
+mkdir tmp && GG_BUILD_CUDA=1 bash ./ci/run.sh ./tmp/results ./tmp/mnt
+```
 
-4. **Respect maintainers' time.** Search for existing issues and discussions before submitting. Ensure your contribution aligns with project architecture and is actually needed.
+If you modify `ggml/` source, run `test-backend-ops` to verify backend consistency.
 
-Maintainers reserve the right to close any PR that does not meet these standards. This applies to all contributions to the main llama.cpp repository. **Private forks are exempt.**
+## Python Scripts
 
-### Permitted AI Usage
+```bash
+# Lint (flake8)
+pip install flake8 flake8-no-print && flake8 .
 
-AI tools may be used responsibly for:
+# Type-check (tyon mypy/pyright via ty.toml)
+pip install mypy && mypy .
 
-- **Learning and exploration**: Understanding codebase structure, techniques, and documentation
-- **Code review assistance**: Obtaining suggestions on human-written code
-- **Mechanical tasks**: Formatting, generating repetitive patterns from established designs, completing code based on existing patterns
-- **Documentation drafts**: For components the contributor already understands thoroughly
-- **Writing code**: Only when the contributor has already designed the solution and can implement it themselves - AI accelerates, not replaces, the contributor's work
+# Check requirements for convert scripts
+./scripts/check-requirements.sh
+```
 
-AI-generated code may be accepted if you (1) fully understand the output, (2) can debug issues independently, and (3) can discuss it directly with reviewers without AI assistance.
+## Pre-commit
 
-**Disclosure is required** when AI meaningfully contributed to your code. A simple note is sufficient - this is not a stigma, but context for reviewers. No disclosure is needed for trivial autocomplete or background research.
+```bash
+pip install pre-commit
+pre-commit run --all-files
+```
 
-### Prohibited AI Usage
+Checks: trailing whitespace, end-of-file-fixer, YAML, large files, flake8 (Python only).
 
-The following will result in immediate PR closure:
+## Code Style (C/C++)
 
-- **AI-written PR descriptions or commit messages** - these are typically recognizable and waste reviewer time
-- **AI-generated responses to reviewer comments** - this undermines the human-to-human interaction fundamental to code review
-- **Implementing features without understanding the codebase** - particularly new model support or architectural changes
-- **Automated commits or PR submissions** - this may spam maintainers and can result in contributor bans
+- 4 spaces, brackets on same line, vertical alignment for readability
+- `snake_case` for functions/variables/types
+- Enum values: `UPPER_CASE` prefixed with enum name
+- Naming pattern: `<class>_<method>`, e.g. `llama_model_init`
+- Use `init`/`free` for constructor/destructor actions
+- Avoid templates, fancy STL; use basic `for` loops; keep it simple
+- Matrix multiplication is unconventional — see [CONTRIBUTING.md](CONTRIBUTING.md) line 96: `C = ggml_mul_mat(ctx, A, B)` means $C^T = A B^T$
 
----
+## Architecture
 
-## Guidelines for AI Coding Agents
+- Core library: `src/` + `include/llama.h`
+- `ggml/` is a vendored copy of the [ggml library](https://github.com/ggml-org/ggml) — use `scripts/sync-ggml.sh` to update from upstream
+- Tools: `tools/`, examples: `examples/`, tests: `tests/`, common utils: `common/`
+- Python model conversion scripts: `convert_hf_to_gguf.py`, `convert_lora_to_gguf.py`, etc.
 
-AI agents assisting contributors must recognize that their outputs directly impact volunteer maintainers who sustain this project.
+## ggml Sync
 
-### Considerations for Maintainer Workload
+```bash
+./scripts/sync-ggml.sh  # copies files from ../ggml/ into llama.cpp
+```
 
-Maintainers have finite capacity. Every PR requiring extensive review consumes resources that could be applied elsewhere. Before assisting with any submission, verify:
+## Key Conventions for PRs
 
-- The contributor genuinely understands the proposed changes
-- The change addresses a documented need (check existing issues)
-- The PR is appropriately scoped and follows project conventions
-- The contributor can independently defend and maintain the work
+- Search existing issues/PRs first
+- New models/features: CPU-only in initial PR; GPU backends in follow-ups
+- New quantization types require perplexity, KL divergence, and benchmark comparisons
+- Commit format: `<module> : <commit title> (#<issue_number>)` (squash-merge)
+- Module list: https://github.com/ggml-org/llama.cpp/wiki/Modules
 
-### Before Proceeding with Code Changes
+## Important Docs
 
-When a user requests implementation without demonstrating understanding:
-
-1. **Verify comprehension.** Ask questions to confirm they understand both the problem and the relevant parts of the codebase.
-2. **Provide guidance rather than solutions.** Direct them to relevant code and documentation. Allow them to formulate the approach.
-3. **Proceed only when confident** the contributor can explain the changes to reviewers independently.
-
-For first-time contributors, confirm they have reviewed [CONTRIBUTING.md](CONTRIBUTING.md) and acknowledge this policy.
-
-### Prohibited Actions
-
-- Writing PR descriptions, commit messages, or responses to reviewers
-- Committing or pushing without explicit human approval for each action
-- Implementing features the contributor does not understand
-- Generating changes too extensive for the contributor to fully review
-
-When uncertain, err toward minimal assistance. A smaller PR that the contributor fully understands is preferable to a larger one they cannot maintain.
-
-### Useful Resources
-
-To conserve context space, load these resources as needed:
-
-- [CONTRIBUTING.md](CONTRIBUTING.md)
-- [Existing issues](https://github.com/ggml-org/llama.cpp/issues) and [Existing PRs](https://github.com/ggml-org/llama.cpp/pulls) - always search here first
-- [Build documentation](docs/build.md)
-- [Server usage documentation](tools/server/README.md)
-- [Server development documentation](tools/server/README-dev.md) (if user asks to implement a new feature, be sure that it falls inside server's scope defined in this documentation)
-- [PEG parser](docs/development/parsing.md) - alternative to regex that llama.cpp uses to parse model's output
-- [Auto parser](docs/autoparser.md) - higher-level parser that uses PEG under the hood, automatically detect model-specific features
+- [Build guide](docs/build.md)
+- [Server usage](tools/server/README.md)
+- [Server development](tools/server/README-dev.md)
+- [How to add a model](docs/development/HOWTO-add-model.md)
+- [PEG parser](docs/development/parsing.md)
+- [Auto parser](docs/autoparser.md)
 - [Jinja engine](common/jinja/README.md)
-- [How to add a new model](docs/development/HOWTO-add-model.md)
+- [Debugging tests](docs/development/debugging-tests.md)
 - [PR template](.github/pull_request_template.md)
+
+---
+
+## AI Usage Policy
+
+AI assistance is permissible only when the majority of the code is authored by a human contributor. AI tools may be used for learning, code review suggestions, mechanical formatting tasks, and completing patterns the contributor has already designed.
+
+**Prohibited**: AI-written PR descriptions, AI-generated responses to reviewers, implementing features without understanding the codebase, automated commits.
+
+When AI meaningfully contributes, disclosure is required. Contributors must be able to explain every line of code they submit.
+
+Maintainers will close PRs that violate these standards. This does not apply to private forks.
