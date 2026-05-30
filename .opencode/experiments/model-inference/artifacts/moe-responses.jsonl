@@ -1,0 +1,640 @@
+{"index": 0, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 11.830761909484863, "prompt_chars": 1130, "max_tokens": 128, "response_chars": 3402}
+{"index": 1, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 9.565760612487793, "prompt_chars": 1170, "max_tokens": 128, "response_chars": 3362}
+{"index": 2, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 9.879575967788696, "prompt_chars": 664, "max_tokens": 128, "response_chars": 2891}
+{"index": 3, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 9.14762020111084, "prompt_chars": 657, "max_tokens": 128, "response_chars": 3134}
+{"index": 4, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 7.8945324420928955, "prompt_chars": 37, "max_tokens": 128, "response_chars": 2127}
+{"index": 5, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 12.088669538497925, "prompt_chars": 1149, "max_tokens": 128, "response_chars": 3365}
+{"index": 6, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 11.390749454498291, "prompt_chars": 967, "max_tokens": 128, "response_chars": 3231}
+{"index": 7, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 10.416379451751709, "prompt_chars": 788, "max_tokens": 128, "response_chars": 3025}
+{"index": 8, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 10.89878535270691, "prompt_chars": 604, "max_tokens": 128, "response_chars": 2852}
+{"index": 9, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 10.616090536117554, "prompt_chars": 573, "max_tokens": 128, "response_chars": 2796}
+{"index": 10, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 8.595669984817505, "prompt_chars": 51, "max_tokens": 128, "response_chars": 2265}
+{"index": 11, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 8.200409650802612, "prompt_chars": 38, "max_tokens": 128, "response_chars": 2214}
+{"index": 12, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 11.213801860809326, "prompt_chars": 613, "max_tokens": 128, "response_chars": 2927}
+{"index": 13, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 9.722384452819824, "prompt_chars": 203, "max_tokens": 128, "response_chars": 2525}
+{"index": 14, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 11.835976839065552, "prompt_chars": 917, "max_tokens": 128, "response_chars": 2882}
+{"index": 15, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 14.445147037506104, "prompt_chars": 1351, "max_tokens": 128, "response_chars": 3629}
+{"index": 16, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 8.743803977966309, "prompt_chars": 51, "max_tokens": 128, "response_chars": 2182}
+{"index": 17, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 12.317725658416748, "prompt_chars": 493, "max_tokens": 128, "response_chars": 2753}
+{"index": 18, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 9.538500785827637, "prompt_chars": 67, "max_tokens": 128, "response_chars": 2207}
+{"index": 19, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 13.091731309890747, "prompt_chars": 898, "max_tokens": 128, "response_chars": 3289}
+{"index": 20, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 14.938542127609253, "prompt_chars": 1014, "max_tokens": 128, "response_chars": 3188}
+{"index": 21, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 14.545595407485962, "prompt_chars": 791, "max_tokens": 128, "response_chars": 3145}
+{"index": 22, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 14.168561220169067, "prompt_chars": 749, "max_tokens": 128, "response_chars": 3117}
+{"index": 23, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 15.00344705581665, "prompt_chars": 972, "max_tokens": 128, "response_chars": 3255}
+{"index": 24, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 13.267577648162842, "prompt_chars": 630, "max_tokens": 128, "response_chars": 2978}
+{"index": 25, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 15.723216533660889, "prompt_chars": 747, "max_tokens": 128, "response_chars": 2920}
+{"index": 26, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 12.726431608200073, "prompt_chars": 207, "max_tokens": 128, "response_chars": 2475}
+{"index": 27, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 13.500117063522339, "prompt_chars": 272, "max_tokens": 128, "response_chars": 2551}
+{"index": 28, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 14.876670122146606, "prompt_chars": 515, "max_tokens": 128, "response_chars": 2784}
+{"index": 29, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 10.456100225448608, "prompt_chars": 58, "max_tokens": 128, "response_chars": 2044}
+{"index": 30, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 16.573076009750366, "prompt_chars": 975, "max_tokens": 128, "response_chars": 3336}
+{"index": 31, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 12.162977933883667, "prompt_chars": 48, "max_tokens": 128, "response_chars": 2070}
+{"index": 32, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 15.830145359039307, "prompt_chars": 364, "max_tokens": 128, "response_chars": 2734}
+{"index": 33, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 19.358449935913086, "prompt_chars": 1018, "max_tokens": 128, "response_chars": 3308}
+{"index": 34, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 14.977083683013916, "prompt_chars": 192, "max_tokens": 128, "response_chars": 2476}
+{"index": 35, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 19.04456877708435, "prompt_chars": 1118, "max_tokens": 128, "response_chars": 3392}
+{"index": 36, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 12.600473165512085, "prompt_chars": 70, "max_tokens": 128, "response_chars": 2312}
+{"index": 37, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 19.848737478256226, "prompt_chars": 827, "max_tokens": 128, "response_chars": 3095}
+{"index": 38, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 11.63391900062561, "prompt_chars": 34, "max_tokens": 128, "response_chars": 2104}
+{"index": 39, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 14.065751791000366, "prompt_chars": 42, "max_tokens": 128, "response_chars": 2165}
+{"index": 40, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 18.891603231430054, "prompt_chars": 399, "max_tokens": 128, "response_chars": 2671}
+{"index": 41, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 19.99172306060791, "prompt_chars": 1079, "max_tokens": 128, "response_chars": 3294}
+{"index": 42, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 23.14179754257202, "prompt_chars": 1040, "max_tokens": 128, "response_chars": 3228}
+{"index": 43, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 22.681782245635986, "prompt_chars": 757, "max_tokens": 128, "response_chars": 3038}
+{"index": 44, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 23.097259998321533, "prompt_chars": 372, "max_tokens": 128, "response_chars": 2626}
+{"index": 45, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 24.939884901046753, "prompt_chars": 456, "max_tokens": 128, "response_chars": 2697}
+{"index": 46, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 26.38076663017273, "prompt_chars": 569, "max_tokens": 128, "response_chars": 2919}
+{"index": 47, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 28.898077487945557, "prompt_chars": 422, "max_tokens": 128, "response_chars": 2710}
+{"index": 48, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 29.365670919418335, "prompt_chars": 847, "max_tokens": 128, "response_chars": 3158}
+{"index": 49, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 34.39179611206055, "prompt_chars": 1110, "max_tokens": 128, "response_chars": 3431}
+{"index": 50, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 45.15035104751587, "prompt_chars": 834, "max_tokens": 128, "response_chars": 3112}
+{"index": 51, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 55.0677216053009, "prompt_chars": 404, "max_tokens": 128, "response_chars": 2513}
+{"index": 52, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 58.89688801765442, "prompt_chars": 35, "max_tokens": 128, "response_chars": 2227}
+{"index": 53, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 59.669862508773804, "prompt_chars": 680, "max_tokens": 128, "response_chars": 2994}
+{"index": 54, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 90.35727381706238, "prompt_chars": 662, "max_tokens": 128, "response_chars": 2944}
+{"index": 55, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 90.41563105583191, "prompt_chars": 578, "max_tokens": 128, "response_chars": 2944}
+{"index": 56, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 89.76671934127808, "prompt_chars": 266, "max_tokens": 128, "response_chars": 2620}
+{"index": 57, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 50.03760313987732, "prompt_chars": 672, "max_tokens": 128, "response_chars": 2750}
+{"index": 58, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 43.42225646972656, "prompt_chars": 841, "max_tokens": 128, "response_chars": 2855}
+{"index": 59, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 86.06156468391418, "prompt_chars": 33, "max_tokens": 128, "response_chars": 2244}
+{"index": 60, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 74.33006763458252, "prompt_chars": 1084, "max_tokens": 128, "response_chars": 3240}
+{"index": 61, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 90.82457327842712, "prompt_chars": 634, "max_tokens": 128, "response_chars": 3050}
+{"index": 62, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 89.31305766105652, "prompt_chars": 358, "max_tokens": 128, "response_chars": 2633}
+{"index": 63, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 93.94004511833191, "prompt_chars": 972, "max_tokens": 128, "response_chars": 3200}
+{"index": 64, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 93.4700095653534, "prompt_chars": 1467, "max_tokens": 128, "response_chars": 3846}
+{"index": 65, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 81.7143304347992, "prompt_chars": 522, "max_tokens": 128, "response_chars": 2871}
+{"index": 66, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 101.8444709777832, "prompt_chars": 352, "max_tokens": 128, "response_chars": 2700}
+{"index": 67, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 110.33306050300598, "prompt_chars": 821, "max_tokens": 128, "response_chars": 3078}
+{"index": 68, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 105.13075304031372, "prompt_chars": 600, "max_tokens": 128, "response_chars": 2879}
+{"index": 69, "source": "wikitext", "endpoint": "/completion", "ok": true, "error": null, "elapsed_s": 113.18186235427856, "prompt_chars": 696, "max_tokens": 128, "response_chars": 2796}
+{"index": 70, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 2.326939582824707, "prompt_chars": 349, "max_tokens": 128}
+{"index": 71, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0117340087890625, "prompt_chars": 473, "max_tokens": 128}
+{"index": 72, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0007748603820800781, "prompt_chars": 1120, "max_tokens": 128}
+{"index": 73, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0007348060607910156, "prompt_chars": 69, "max_tokens": 128}
+{"index": 74, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0007114410400390625, "prompt_chars": 487, "max_tokens": 128}
+{"index": 75, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0006814002990722656, "prompt_chars": 331, "max_tokens": 128}
+{"index": 76, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0005545616149902344, "prompt_chars": 1335, "max_tokens": 128}
+{"index": 77, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0006918907165527344, "prompt_chars": 703, "max_tokens": 128}
+{"index": 78, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0007224082946777344, "prompt_chars": 1129, "max_tokens": 128}
+{"index": 79, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0004673004150390625, "prompt_chars": 36, "max_tokens": 128}
+{"index": 80, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0004055500030517578, "prompt_chars": 1240, "max_tokens": 128}
+{"index": 81, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0004115104675292969, "prompt_chars": 1062, "max_tokens": 128}
+{"index": 82, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0004363059997558594, "prompt_chars": 433, "max_tokens": 128}
+{"index": 83, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.00041222572326660156, "prompt_chars": 1333, "max_tokens": 128}
+{"index": 84, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.00040340423583984375, "prompt_chars": 38, "max_tokens": 128}
+{"index": 85, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0004241466522216797, "prompt_chars": 32, "max_tokens": 128}
+{"index": 86, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.000469207763671875, "prompt_chars": 623, "max_tokens": 128}
+{"index": 87, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.00046181678771972656, "prompt_chars": 441, "max_tokens": 128}
+{"index": 88, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0004572868347167969, "prompt_chars": 40, "max_tokens": 128}
+{"index": 89, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0005800724029541016, "prompt_chars": 32, "max_tokens": 128}
+{"index": 90, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0005695819854736328, "prompt_chars": 616, "max_tokens": 128}
+{"index": 91, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0005509853363037109, "prompt_chars": 137, "max_tokens": 128}
+{"index": 92, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0006275177001953125, "prompt_chars": 1052, "max_tokens": 128}
+{"index": 93, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0006315708160400391, "prompt_chars": 597, "max_tokens": 128}
+{"index": 94, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0006203651428222656, "prompt_chars": 1283, "max_tokens": 128}
+{"index": 95, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0006246566772460938, "prompt_chars": 37, "max_tokens": 128}
+{"index": 96, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0006544589996337891, "prompt_chars": 1416, "max_tokens": 128}
+{"index": 97, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0006473064422607422, "prompt_chars": 912, "max_tokens": 128}
+{"index": 98, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0006725788116455078, "prompt_chars": 1713, "max_tokens": 128}
+{"index": 99, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0007755756378173828, "prompt_chars": 224, "max_tokens": 128}
+{"index": 100, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0006892681121826172, "prompt_chars": 1011, "max_tokens": 128}
+{"index": 101, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0007505416870117188, "prompt_chars": 57, "max_tokens": 128}
+{"index": 102, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0008876323699951172, "prompt_chars": 135, "max_tokens": 128}
+{"index": 103, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0008065700531005859, "prompt_chars": 509, "max_tokens": 128}
+{"index": 104, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0008475780487060547, "prompt_chars": 827, "max_tokens": 128}
+{"index": 105, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0009958744049072266, "prompt_chars": 155, "max_tokens": 128}
+{"index": 106, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0009586811065673828, "prompt_chars": 404, "max_tokens": 128}
+{"index": 107, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0012660026550292969, "prompt_chars": 1054, "max_tokens": 128}
+{"index": 108, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0010726451873779297, "prompt_chars": 386, "max_tokens": 128}
+{"index": 109, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0011813640594482422, "prompt_chars": 166, "max_tokens": 128}
+{"index": 110, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0012166500091552734, "prompt_chars": 335, "max_tokens": 128}
+{"index": 111, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0012416839599609375, "prompt_chars": 90, "max_tokens": 128}
+{"index": 112, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0013802051544189453, "prompt_chars": 546, "max_tokens": 128}
+{"index": 113, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0013322830200195312, "prompt_chars": 298, "max_tokens": 128}
+{"index": 114, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0013651847839355469, "prompt_chars": 1145, "max_tokens": 128}
+{"index": 115, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0013093948364257812, "prompt_chars": 954, "max_tokens": 128}
+{"index": 116, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0015444755554199219, "prompt_chars": 1205, "max_tokens": 128}
+{"index": 117, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001497030258178711, "prompt_chars": 259, "max_tokens": 128}
+{"index": 118, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.00145721435546875, "prompt_chars": 2100, "max_tokens": 128}
+{"index": 119, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001524209976196289, "prompt_chars": 185, "max_tokens": 128}
+{"index": 120, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0015556812286376953, "prompt_chars": 38, "max_tokens": 128}
+{"index": 121, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001477956771850586, "prompt_chars": 777, "max_tokens": 128}
+{"index": 122, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0013997554779052734, "prompt_chars": 733, "max_tokens": 128}
+{"index": 123, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0012183189392089844, "prompt_chars": 529, "max_tokens": 128}
+{"index": 124, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0012521743774414062, "prompt_chars": 904, "max_tokens": 128}
+{"index": 125, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0029206275939941406, "prompt_chars": 1338, "max_tokens": 128}
+{"index": 126, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001148223876953125, "prompt_chars": 138, "max_tokens": 128}
+{"index": 127, "source": "wikitext", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0013606548309326172, "prompt_chars": 35, "max_tokens": 128}
+{"index": 128, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0015842914581298828, "prompt_chars": 253, "max_tokens": 128}
+{"index": 129, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018222332000732422, "prompt_chars": 54, "max_tokens": 128}
+{"index": 130, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016987323760986328, "prompt_chars": 71, "max_tokens": 128}
+{"index": 131, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001674652099609375, "prompt_chars": 108, "max_tokens": 128}
+{"index": 132, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0014405250549316406, "prompt_chars": 110, "max_tokens": 128}
+{"index": 133, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0012524127960205078, "prompt_chars": 62, "max_tokens": 128}
+{"index": 134, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001341104507446289, "prompt_chars": 78, "max_tokens": 128}
+{"index": 135, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0014126300811767578, "prompt_chars": 111, "max_tokens": 128}
+{"index": 136, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018768310546875, "prompt_chars": 558, "max_tokens": 128}
+{"index": 137, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0033037662506103516, "prompt_chars": 748, "max_tokens": 128}
+{"index": 138, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003346681594848633, "prompt_chars": 92, "max_tokens": 128}
+{"index": 139, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0035979747772216797, "prompt_chars": 73, "max_tokens": 128}
+{"index": 140, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0033974647521972656, "prompt_chars": 34, "max_tokens": 128}
+{"index": 141, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003322601318359375, "prompt_chars": 120, "max_tokens": 128}
+{"index": 142, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0026705265045166016, "prompt_chars": 184, "max_tokens": 128}
+{"index": 143, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0027816295623779297, "prompt_chars": 95, "max_tokens": 128}
+{"index": 144, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003338336944580078, "prompt_chars": 50, "max_tokens": 128}
+{"index": 145, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0033981800079345703, "prompt_chars": 931, "max_tokens": 128}
+{"index": 146, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0034682750701904297, "prompt_chars": 256, "max_tokens": 128}
+{"index": 147, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002615213394165039, "prompt_chars": 147, "max_tokens": 128}
+{"index": 148, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0023953914642333984, "prompt_chars": 42, "max_tokens": 128}
+{"index": 149, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0033981800079345703, "prompt_chars": 66, "max_tokens": 128}
+{"index": 150, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0034074783325195312, "prompt_chars": 141, "max_tokens": 128}
+{"index": 151, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0037300586700439453, "prompt_chars": 321, "max_tokens": 128}
+{"index": 152, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0021250247955322266, "prompt_chars": 57, "max_tokens": 128}
+{"index": 153, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002269268035888672, "prompt_chars": 185, "max_tokens": 128}
+{"index": 154, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003336668014526367, "prompt_chars": 301, "max_tokens": 128}
+{"index": 155, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0035314559936523438, "prompt_chars": 89, "max_tokens": 128}
+{"index": 156, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003527402877807617, "prompt_chars": 45, "max_tokens": 128}
+{"index": 157, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0026710033416748047, "prompt_chars": 641, "max_tokens": 128}
+{"index": 158, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002592325210571289, "prompt_chars": 94, "max_tokens": 128}
+{"index": 159, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003443002700805664, "prompt_chars": 145, "max_tokens": 128}
+{"index": 160, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0032753944396972656, "prompt_chars": 128, "max_tokens": 128}
+{"index": 161, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0034570693969726562, "prompt_chars": 217, "max_tokens": 128}
+{"index": 162, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0030939579010009766, "prompt_chars": 397, "max_tokens": 128}
+{"index": 163, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003142833709716797, "prompt_chars": 81, "max_tokens": 128}
+{"index": 164, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0034666061401367188, "prompt_chars": 33, "max_tokens": 128}
+{"index": 165, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.00301361083984375, "prompt_chars": 72, "max_tokens": 128}
+{"index": 166, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0034475326538085938, "prompt_chars": 59, "max_tokens": 128}
+{"index": 167, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0032901763916015625, "prompt_chars": 721, "max_tokens": 128}
+{"index": 168, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0033996105194091797, "prompt_chars": 422, "max_tokens": 128}
+{"index": 169, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003404855728149414, "prompt_chars": 42, "max_tokens": 128}
+{"index": 170, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0036537647247314453, "prompt_chars": 963, "max_tokens": 128}
+{"index": 171, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0028886795043945312, "prompt_chars": 185, "max_tokens": 128}
+{"index": 172, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002985715866088867, "prompt_chars": 287, "max_tokens": 128}
+{"index": 173, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003339529037475586, "prompt_chars": 60, "max_tokens": 128}
+{"index": 174, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0039119720458984375, "prompt_chars": 101, "max_tokens": 128}
+{"index": 175, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003041505813598633, "prompt_chars": 110, "max_tokens": 128}
+{"index": 176, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003527402877807617, "prompt_chars": 118, "max_tokens": 128}
+{"index": 177, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0034029483795166016, "prompt_chars": 247, "max_tokens": 128}
+{"index": 178, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002933979034423828, "prompt_chars": 82, "max_tokens": 128}
+{"index": 179, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0027561187744140625, "prompt_chars": 36, "max_tokens": 128}
+{"index": 180, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0021064281463623047, "prompt_chars": 85, "max_tokens": 128}
+{"index": 181, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002256631851196289, "prompt_chars": 272, "max_tokens": 128}
+{"index": 182, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020935535430908203, "prompt_chars": 64, "max_tokens": 128}
+{"index": 183, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002094745635986328, "prompt_chars": 37, "max_tokens": 128}
+{"index": 184, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018303394317626953, "prompt_chars": 141, "max_tokens": 128}
+{"index": 185, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018703937530517578, "prompt_chars": 51, "max_tokens": 128}
+{"index": 186, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018706321716308594, "prompt_chars": 162, "max_tokens": 128}
+{"index": 187, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001744985580444336, "prompt_chars": 182, "max_tokens": 128}
+{"index": 188, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017158985137939453, "prompt_chars": 69, "max_tokens": 128}
+{"index": 189, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017418861389160156, "prompt_chars": 1274, "max_tokens": 128}
+{"index": 190, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017299652099609375, "prompt_chars": 38, "max_tokens": 128}
+{"index": 191, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017724037170410156, "prompt_chars": 45, "max_tokens": 128}
+{"index": 192, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017342567443847656, "prompt_chars": 662, "max_tokens": 128}
+{"index": 193, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016851425170898438, "prompt_chars": 310, "max_tokens": 128}
+{"index": 194, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016660690307617188, "prompt_chars": 667, "max_tokens": 128}
+{"index": 195, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016791820526123047, "prompt_chars": 77, "max_tokens": 128}
+{"index": 196, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018458366394042969, "prompt_chars": 83, "max_tokens": 128}
+{"index": 197, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016713142395019531, "prompt_chars": 885, "max_tokens": 128}
+{"index": 198, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016715526580810547, "prompt_chars": 123, "max_tokens": 128}
+{"index": 199, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002117633819580078, "prompt_chars": 35, "max_tokens": 128}
+{"index": 200, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003538370132446289, "prompt_chars": 82, "max_tokens": 128}
+{"index": 201, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0034596920013427734, "prompt_chars": 90, "max_tokens": 128}
+{"index": 202, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002578258514404297, "prompt_chars": 745, "max_tokens": 128}
+{"index": 203, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0034568309783935547, "prompt_chars": 73, "max_tokens": 128}
+{"index": 204, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0038268566131591797, "prompt_chars": 449, "max_tokens": 128}
+{"index": 205, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003583669662475586, "prompt_chars": 289, "max_tokens": 128}
+{"index": 206, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0029823780059814453, "prompt_chars": 111, "max_tokens": 128}
+{"index": 207, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003487825393676758, "prompt_chars": 148, "max_tokens": 128}
+{"index": 208, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0025904178619384766, "prompt_chars": 98, "max_tokens": 128}
+{"index": 209, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0027954578399658203, "prompt_chars": 185, "max_tokens": 128}
+{"index": 210, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003085613250732422, "prompt_chars": 38, "max_tokens": 128}
+{"index": 211, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003183126449584961, "prompt_chars": 99, "max_tokens": 128}
+{"index": 212, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0035805702209472656, "prompt_chars": 191, "max_tokens": 128}
+{"index": 213, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002279520034790039, "prompt_chars": 125, "max_tokens": 128}
+{"index": 214, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0027539730072021484, "prompt_chars": 108, "max_tokens": 128}
+{"index": 215, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003416299819946289, "prompt_chars": 129, "max_tokens": 128}
+{"index": 216, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0033562183380126953, "prompt_chars": 408, "max_tokens": 128}
+{"index": 217, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002189159393310547, "prompt_chars": 68, "max_tokens": 128}
+{"index": 218, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001924276351928711, "prompt_chars": 102, "max_tokens": 128}
+{"index": 219, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020284652709960938, "prompt_chars": 348, "max_tokens": 128}
+{"index": 220, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019545555114746094, "prompt_chars": 183, "max_tokens": 128}
+{"index": 221, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019731521606445312, "prompt_chars": 657, "max_tokens": 128}
+{"index": 222, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019402503967285156, "prompt_chars": 378, "max_tokens": 128}
+{"index": 223, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001712799072265625, "prompt_chars": 40, "max_tokens": 128}
+{"index": 224, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019178390502929688, "prompt_chars": 47, "max_tokens": 128}
+{"index": 225, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018157958984375, "prompt_chars": 86, "max_tokens": 128}
+{"index": 226, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017032623291015625, "prompt_chars": 276, "max_tokens": 128}
+{"index": 227, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016887187957763672, "prompt_chars": 195, "max_tokens": 128}
+{"index": 228, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017247200012207031, "prompt_chars": 124, "max_tokens": 128}
+{"index": 229, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002830982208251953, "prompt_chars": 657, "max_tokens": 128}
+{"index": 230, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019998550415039062, "prompt_chars": 274, "max_tokens": 128}
+{"index": 231, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019576549530029297, "prompt_chars": 45, "max_tokens": 128}
+{"index": 232, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001897573471069336, "prompt_chars": 103, "max_tokens": 128}
+{"index": 233, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.00189971923828125, "prompt_chars": 1279, "max_tokens": 128}
+{"index": 234, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018203258514404297, "prompt_chars": 316, "max_tokens": 128}
+{"index": 235, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001722574234008789, "prompt_chars": 82, "max_tokens": 128}
+{"index": 236, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018863677978515625, "prompt_chars": 116, "max_tokens": 128}
+{"index": 237, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017457008361816406, "prompt_chars": 615, "max_tokens": 128}
+{"index": 238, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001806020736694336, "prompt_chars": 299, "max_tokens": 128}
+{"index": 239, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017802715301513672, "prompt_chars": 1002, "max_tokens": 128}
+{"index": 240, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017507076263427734, "prompt_chars": 88, "max_tokens": 128}
+{"index": 241, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017642974853515625, "prompt_chars": 1081, "max_tokens": 128}
+{"index": 242, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018448829650878906, "prompt_chars": 762, "max_tokens": 128}
+{"index": 243, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001905679702758789, "prompt_chars": 196, "max_tokens": 128}
+{"index": 244, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018544197082519531, "prompt_chars": 111, "max_tokens": 128}
+{"index": 245, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017778873443603516, "prompt_chars": 48, "max_tokens": 128}
+{"index": 246, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018830299377441406, "prompt_chars": 140, "max_tokens": 128}
+{"index": 247, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017976760864257812, "prompt_chars": 231, "max_tokens": 128}
+{"index": 248, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018684864044189453, "prompt_chars": 420, "max_tokens": 128}
+{"index": 249, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017120838165283203, "prompt_chars": 144, "max_tokens": 128}
+{"index": 250, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017011165618896484, "prompt_chars": 43, "max_tokens": 128}
+{"index": 251, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016698837280273438, "prompt_chars": 50, "max_tokens": 128}
+{"index": 252, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018343925476074219, "prompt_chars": 33, "max_tokens": 128}
+{"index": 253, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018057823181152344, "prompt_chars": 199, "max_tokens": 128}
+{"index": 254, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016531944274902344, "prompt_chars": 304, "max_tokens": 128}
+{"index": 255, "source": "mmlu", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016186237335205078, "prompt_chars": 45, "max_tokens": 128}
+{"index": 256, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0014934539794921875, "prompt_chars": 148, "max_tokens": 128}
+{"index": 257, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001520395278930664, "prompt_chars": 88, "max_tokens": 128}
+{"index": 258, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0014925003051757812, "prompt_chars": 181, "max_tokens": 128}
+{"index": 259, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0014531612396240234, "prompt_chars": 167, "max_tokens": 128}
+{"index": 260, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0013730525970458984, "prompt_chars": 299, "max_tokens": 128}
+{"index": 261, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0014934539794921875, "prompt_chars": 203, "max_tokens": 128}
+{"index": 262, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0013935565948486328, "prompt_chars": 173, "max_tokens": 128}
+{"index": 263, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0014770030975341797, "prompt_chars": 309, "max_tokens": 128}
+{"index": 264, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001560211181640625, "prompt_chars": 302, "max_tokens": 128}
+{"index": 265, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0014348030090332031, "prompt_chars": 299, "max_tokens": 128}
+{"index": 266, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016491413116455078, "prompt_chars": 180, "max_tokens": 128}
+{"index": 267, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016391277313232422, "prompt_chars": 197, "max_tokens": 128}
+{"index": 268, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0015404224395751953, "prompt_chars": 256, "max_tokens": 128}
+{"index": 269, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017092227935791016, "prompt_chars": 437, "max_tokens": 128}
+{"index": 270, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001638174057006836, "prompt_chars": 164, "max_tokens": 128}
+{"index": 271, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017583370208740234, "prompt_chars": 180, "max_tokens": 128}
+{"index": 272, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017321109771728516, "prompt_chars": 100, "max_tokens": 128}
+{"index": 273, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017614364624023438, "prompt_chars": 218, "max_tokens": 128}
+{"index": 274, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001638174057006836, "prompt_chars": 153, "max_tokens": 128}
+{"index": 275, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016789436340332031, "prompt_chars": 149, "max_tokens": 128}
+{"index": 276, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002206563949584961, "prompt_chars": 184, "max_tokens": 128}
+{"index": 277, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002408266067504883, "prompt_chars": 194, "max_tokens": 128}
+{"index": 278, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0034296512603759766, "prompt_chars": 164, "max_tokens": 128}
+{"index": 279, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003498554229736328, "prompt_chars": 615, "max_tokens": 128}
+{"index": 280, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003694295883178711, "prompt_chars": 277, "max_tokens": 128}
+{"index": 281, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0022606849670410156, "prompt_chars": 472, "max_tokens": 128}
+{"index": 282, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019719600677490234, "prompt_chars": 271, "max_tokens": 128}
+{"index": 283, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003562450408935547, "prompt_chars": 207, "max_tokens": 128}
+{"index": 284, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0024220943450927734, "prompt_chars": 187, "max_tokens": 128}
+{"index": 285, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001947641372680664, "prompt_chars": 136, "max_tokens": 128}
+{"index": 286, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0021228790283203125, "prompt_chars": 223, "max_tokens": 128}
+{"index": 287, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001756429672241211, "prompt_chars": 265, "max_tokens": 128}
+{"index": 288, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018031597137451172, "prompt_chars": 157, "max_tokens": 128}
+{"index": 289, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018465518951416016, "prompt_chars": 242, "max_tokens": 128}
+{"index": 290, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016698837280273438, "prompt_chars": 182, "max_tokens": 128}
+{"index": 291, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016641616821289062, "prompt_chars": 128, "max_tokens": 128}
+{"index": 292, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017652511596679688, "prompt_chars": 229, "max_tokens": 128}
+{"index": 293, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018074512481689453, "prompt_chars": 356, "max_tokens": 128}
+{"index": 294, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017704963684082031, "prompt_chars": 282, "max_tokens": 128}
+{"index": 295, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017995834350585938, "prompt_chars": 281, "max_tokens": 128}
+{"index": 296, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020127296447753906, "prompt_chars": 352, "max_tokens": 128}
+{"index": 297, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018279552459716797, "prompt_chars": 151, "max_tokens": 128}
+{"index": 298, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019397735595703125, "prompt_chars": 172, "max_tokens": 128}
+{"index": 299, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001680612564086914, "prompt_chars": 265, "max_tokens": 128}
+{"index": 300, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017251968383789062, "prompt_chars": 231, "max_tokens": 128}
+{"index": 301, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016930103302001953, "prompt_chars": 190, "max_tokens": 128}
+{"index": 302, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017688274383544922, "prompt_chars": 483, "max_tokens": 128}
+{"index": 303, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017731189727783203, "prompt_chars": 167, "max_tokens": 128}
+{"index": 304, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017271041870117188, "prompt_chars": 154, "max_tokens": 128}
+{"index": 305, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017211437225341797, "prompt_chars": 181, "max_tokens": 128}
+{"index": 306, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016586780548095703, "prompt_chars": 150, "max_tokens": 128}
+{"index": 307, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017011165618896484, "prompt_chars": 215, "max_tokens": 128}
+{"index": 308, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017960071563720703, "prompt_chars": 224, "max_tokens": 128}
+{"index": 309, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018069744110107422, "prompt_chars": 327, "max_tokens": 128}
+{"index": 310, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016710758209228516, "prompt_chars": 356, "max_tokens": 128}
+{"index": 311, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001789093017578125, "prompt_chars": 206, "max_tokens": 128}
+{"index": 312, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017306804656982422, "prompt_chars": 178, "max_tokens": 128}
+{"index": 313, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001687765121459961, "prompt_chars": 248, "max_tokens": 128}
+{"index": 314, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001767873764038086, "prompt_chars": 528, "max_tokens": 128}
+{"index": 315, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017528533935546875, "prompt_chars": 137, "max_tokens": 128}
+{"index": 316, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018689632415771484, "prompt_chars": 185, "max_tokens": 128}
+{"index": 317, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018169879913330078, "prompt_chars": 313, "max_tokens": 128}
+{"index": 318, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017657279968261719, "prompt_chars": 224, "max_tokens": 128}
+{"index": 319, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017905235290527344, "prompt_chars": 138, "max_tokens": 128}
+{"index": 320, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001821279525756836, "prompt_chars": 210, "max_tokens": 128}
+{"index": 321, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017728805541992188, "prompt_chars": 382, "max_tokens": 128}
+{"index": 322, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016982555389404297, "prompt_chars": 264, "max_tokens": 128}
+{"index": 323, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016629695892333984, "prompt_chars": 178, "max_tokens": 128}
+{"index": 324, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016689300537109375, "prompt_chars": 151, "max_tokens": 128}
+{"index": 325, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.00168609619140625, "prompt_chars": 439, "max_tokens": 128}
+{"index": 326, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001729726791381836, "prompt_chars": 204, "max_tokens": 128}
+{"index": 327, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016770362854003906, "prompt_chars": 284, "max_tokens": 128}
+{"index": 328, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001596689224243164, "prompt_chars": 277, "max_tokens": 128}
+{"index": 329, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001646280288696289, "prompt_chars": 166, "max_tokens": 128}
+{"index": 330, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002743959426879883, "prompt_chars": 503, "max_tokens": 128}
+{"index": 331, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020470619201660156, "prompt_chars": 235, "max_tokens": 128}
+{"index": 332, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018169879913330078, "prompt_chars": 373, "max_tokens": 128}
+{"index": 333, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019690990447998047, "prompt_chars": 251, "max_tokens": 128}
+{"index": 334, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020058155059814453, "prompt_chars": 226, "max_tokens": 128}
+{"index": 335, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001990795135498047, "prompt_chars": 159, "max_tokens": 128}
+{"index": 336, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002106189727783203, "prompt_chars": 367, "max_tokens": 128}
+{"index": 337, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002596616744995117, "prompt_chars": 124, "max_tokens": 128}
+{"index": 338, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0023529529571533203, "prompt_chars": 237, "max_tokens": 128}
+{"index": 339, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003584623336791992, "prompt_chars": 159, "max_tokens": 128}
+{"index": 340, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0028808116912841797, "prompt_chars": 231, "max_tokens": 128}
+{"index": 341, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0026013851165771484, "prompt_chars": 355, "max_tokens": 128}
+{"index": 342, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0035974979400634766, "prompt_chars": 362, "max_tokens": 128}
+{"index": 343, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002953767776489258, "prompt_chars": 401, "max_tokens": 128}
+{"index": 344, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0027899742126464844, "prompt_chars": 537, "max_tokens": 128}
+{"index": 345, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003682374954223633, "prompt_chars": 521, "max_tokens": 128}
+{"index": 346, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0034711360931396484, "prompt_chars": 450, "max_tokens": 128}
+{"index": 347, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0025103092193603516, "prompt_chars": 288, "max_tokens": 128}
+{"index": 348, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002067089080810547, "prompt_chars": 189, "max_tokens": 128}
+{"index": 349, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020613670349121094, "prompt_chars": 309, "max_tokens": 128}
+{"index": 350, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020570755004882812, "prompt_chars": 222, "max_tokens": 128}
+{"index": 351, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002315998077392578, "prompt_chars": 250, "max_tokens": 128}
+{"index": 352, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002192258834838867, "prompt_chars": 173, "max_tokens": 128}
+{"index": 353, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018672943115234375, "prompt_chars": 337, "max_tokens": 128}
+{"index": 354, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017631053924560547, "prompt_chars": 146, "max_tokens": 128}
+{"index": 355, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019800662994384766, "prompt_chars": 78, "max_tokens": 128}
+{"index": 356, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002004384994506836, "prompt_chars": 121, "max_tokens": 128}
+{"index": 357, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018951892852783203, "prompt_chars": 312, "max_tokens": 128}
+{"index": 358, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001764059066772461, "prompt_chars": 125, "max_tokens": 128}
+{"index": 359, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001756429672241211, "prompt_chars": 175, "max_tokens": 128}
+{"index": 360, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001783609390258789, "prompt_chars": 146, "max_tokens": 128}
+{"index": 361, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017085075378417969, "prompt_chars": 293, "max_tokens": 128}
+{"index": 362, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017805099487304688, "prompt_chars": 313, "max_tokens": 128}
+{"index": 363, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.00164794921875, "prompt_chars": 145, "max_tokens": 128}
+{"index": 364, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016536712646484375, "prompt_chars": 265, "max_tokens": 128}
+{"index": 365, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016124248504638672, "prompt_chars": 186, "max_tokens": 128}
+{"index": 366, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016448497772216797, "prompt_chars": 215, "max_tokens": 128}
+{"index": 367, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0015892982482910156, "prompt_chars": 178, "max_tokens": 128}
+{"index": 368, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0015995502471923828, "prompt_chars": 93, "max_tokens": 128}
+{"index": 369, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0015769004821777344, "prompt_chars": 106, "max_tokens": 128}
+{"index": 370, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018038749694824219, "prompt_chars": 296, "max_tokens": 128}
+{"index": 371, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019826889038085938, "prompt_chars": 300, "max_tokens": 128}
+{"index": 372, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018031597137451172, "prompt_chars": 346, "max_tokens": 128}
+{"index": 373, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001773834228515625, "prompt_chars": 185, "max_tokens": 128}
+{"index": 374, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018999576568603516, "prompt_chars": 120, "max_tokens": 128}
+{"index": 375, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002031564712524414, "prompt_chars": 259, "max_tokens": 128}
+{"index": 376, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018963813781738281, "prompt_chars": 150, "max_tokens": 128}
+{"index": 377, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001767873764038086, "prompt_chars": 100, "max_tokens": 128}
+{"index": 378, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017840862274169922, "prompt_chars": 200, "max_tokens": 128}
+{"index": 379, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017232894897460938, "prompt_chars": 145, "max_tokens": 128}
+{"index": 380, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0027723312377929688, "prompt_chars": 212, "max_tokens": 128}
+{"index": 381, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0023365020751953125, "prompt_chars": 167, "max_tokens": 128}
+{"index": 382, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003726959228515625, "prompt_chars": 193, "max_tokens": 128}
+{"index": 383, "source": "gsm8k", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0024862289428710938, "prompt_chars": 152, "max_tokens": 128}
+{"index": 384, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0023648738861083984, "prompt_chars": 347, "max_tokens": 128}
+{"index": 385, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020003318786621094, "prompt_chars": 670, "max_tokens": 128}
+{"index": 386, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019876956939697266, "prompt_chars": 328, "max_tokens": 128}
+{"index": 387, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018205642700195312, "prompt_chars": 474, "max_tokens": 128}
+{"index": 388, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001728057861328125, "prompt_chars": 323, "max_tokens": 128}
+{"index": 389, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018422603607177734, "prompt_chars": 286, "max_tokens": 128}
+{"index": 390, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016782283782958984, "prompt_chars": 435, "max_tokens": 128}
+{"index": 391, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001683950424194336, "prompt_chars": 262, "max_tokens": 128}
+{"index": 392, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018353462219238281, "prompt_chars": 470, "max_tokens": 128}
+{"index": 393, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017750263214111328, "prompt_chars": 287, "max_tokens": 128}
+{"index": 394, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001661062240600586, "prompt_chars": 577, "max_tokens": 128}
+{"index": 395, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016796588897705078, "prompt_chars": 985, "max_tokens": 128}
+{"index": 396, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017750263214111328, "prompt_chars": 375, "max_tokens": 128}
+{"index": 397, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018546581268310547, "prompt_chars": 214, "max_tokens": 128}
+{"index": 398, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017955303192138672, "prompt_chars": 209, "max_tokens": 128}
+{"index": 399, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017004013061523438, "prompt_chars": 216, "max_tokens": 128}
+{"index": 400, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016016960144042969, "prompt_chars": 229, "max_tokens": 128}
+{"index": 401, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017228126525878906, "prompt_chars": 439, "max_tokens": 128}
+{"index": 402, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016741752624511719, "prompt_chars": 292, "max_tokens": 128}
+{"index": 403, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017824172973632812, "prompt_chars": 382, "max_tokens": 128}
+{"index": 404, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001722097396850586, "prompt_chars": 450, "max_tokens": 128}
+{"index": 405, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0015835762023925781, "prompt_chars": 464, "max_tokens": 128}
+{"index": 406, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001741170883178711, "prompt_chars": 330, "max_tokens": 128}
+{"index": 407, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016868114471435547, "prompt_chars": 584, "max_tokens": 128}
+{"index": 408, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017328262329101562, "prompt_chars": 169, "max_tokens": 128}
+{"index": 409, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001764059066772461, "prompt_chars": 518, "max_tokens": 128}
+{"index": 410, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017971992492675781, "prompt_chars": 284, "max_tokens": 128}
+{"index": 411, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016140937805175781, "prompt_chars": 176, "max_tokens": 128}
+{"index": 412, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018100738525390625, "prompt_chars": 212, "max_tokens": 128}
+{"index": 413, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017042160034179688, "prompt_chars": 358, "max_tokens": 128}
+{"index": 414, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001651763916015625, "prompt_chars": 227, "max_tokens": 128}
+{"index": 415, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017108917236328125, "prompt_chars": 306, "max_tokens": 128}
+{"index": 416, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017147064208984375, "prompt_chars": 758, "max_tokens": 128}
+{"index": 417, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016841888427734375, "prompt_chars": 423, "max_tokens": 128}
+{"index": 418, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016090869903564453, "prompt_chars": 146, "max_tokens": 128}
+{"index": 419, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0015795230865478516, "prompt_chars": 182, "max_tokens": 128}
+{"index": 420, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001703500747680664, "prompt_chars": 225, "max_tokens": 128}
+{"index": 421, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0022344589233398438, "prompt_chars": 342, "max_tokens": 128}
+{"index": 422, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001758575439453125, "prompt_chars": 634, "max_tokens": 128}
+{"index": 423, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017430782318115234, "prompt_chars": 257, "max_tokens": 128}
+{"index": 424, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018229484558105469, "prompt_chars": 481, "max_tokens": 128}
+{"index": 425, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001705169677734375, "prompt_chars": 644, "max_tokens": 128}
+{"index": 426, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019147396087646484, "prompt_chars": 209, "max_tokens": 128}
+{"index": 427, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016369819641113281, "prompt_chars": 459, "max_tokens": 128}
+{"index": 428, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0015172958374023438, "prompt_chars": 297, "max_tokens": 128}
+{"index": 429, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0015745162963867188, "prompt_chars": 135, "max_tokens": 128}
+{"index": 430, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0015473365783691406, "prompt_chars": 412, "max_tokens": 128}
+{"index": 431, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0015010833740234375, "prompt_chars": 165, "max_tokens": 128}
+{"index": 432, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001569509506225586, "prompt_chars": 241, "max_tokens": 128}
+{"index": 433, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002142667770385742, "prompt_chars": 221, "max_tokens": 128}
+{"index": 434, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020542144775390625, "prompt_chars": 330, "max_tokens": 128}
+{"index": 435, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018486976623535156, "prompt_chars": 379, "max_tokens": 128}
+{"index": 436, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001852273941040039, "prompt_chars": 222, "max_tokens": 128}
+{"index": 437, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018961429595947266, "prompt_chars": 112, "max_tokens": 128}
+{"index": 438, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019278526306152344, "prompt_chars": 428, "max_tokens": 128}
+{"index": 439, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019106864929199219, "prompt_chars": 127, "max_tokens": 128}
+{"index": 440, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018172264099121094, "prompt_chars": 345, "max_tokens": 128}
+{"index": 441, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017080307006835938, "prompt_chars": 240, "max_tokens": 128}
+{"index": 442, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017066001892089844, "prompt_chars": 231, "max_tokens": 128}
+{"index": 443, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017807483673095703, "prompt_chars": 203, "max_tokens": 128}
+{"index": 444, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017209053039550781, "prompt_chars": 463, "max_tokens": 128}
+{"index": 445, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017244815826416016, "prompt_chars": 345, "max_tokens": 128}
+{"index": 446, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017802715301513672, "prompt_chars": 283, "max_tokens": 128}
+{"index": 447, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018544197082519531, "prompt_chars": 241, "max_tokens": 128}
+{"index": 448, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018622875213623047, "prompt_chars": 423, "max_tokens": 128}
+{"index": 449, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017118453979492188, "prompt_chars": 294, "max_tokens": 128}
+{"index": 450, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018143653869628906, "prompt_chars": 361, "max_tokens": 128}
+{"index": 451, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017812252044677734, "prompt_chars": 764, "max_tokens": 128}
+{"index": 452, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017578601837158203, "prompt_chars": 1165, "max_tokens": 128}
+{"index": 453, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018618106842041016, "prompt_chars": 810, "max_tokens": 128}
+{"index": 454, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016224384307861328, "prompt_chars": 383, "max_tokens": 128}
+{"index": 455, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016870498657226562, "prompt_chars": 417, "max_tokens": 128}
+{"index": 456, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001771688461303711, "prompt_chars": 721, "max_tokens": 128}
+{"index": 457, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017244815826416016, "prompt_chars": 470, "max_tokens": 128}
+{"index": 458, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017209053039550781, "prompt_chars": 611, "max_tokens": 128}
+{"index": 459, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001760244369506836, "prompt_chars": 267, "max_tokens": 128}
+{"index": 460, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016400814056396484, "prompt_chars": 424, "max_tokens": 128}
+{"index": 461, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018131732940673828, "prompt_chars": 291, "max_tokens": 128}
+{"index": 462, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.00179290771484375, "prompt_chars": 925, "max_tokens": 128}
+{"index": 463, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017120838165283203, "prompt_chars": 558, "max_tokens": 128}
+{"index": 464, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.00173187255859375, "prompt_chars": 385, "max_tokens": 128}
+{"index": 465, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017168521881103516, "prompt_chars": 1033, "max_tokens": 128}
+{"index": 466, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001749277114868164, "prompt_chars": 311, "max_tokens": 128}
+{"index": 467, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017948150634765625, "prompt_chars": 162, "max_tokens": 128}
+{"index": 468, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001756429672241211, "prompt_chars": 478, "max_tokens": 128}
+{"index": 469, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017397403717041016, "prompt_chars": 165, "max_tokens": 128}
+{"index": 470, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001752614974975586, "prompt_chars": 540, "max_tokens": 128}
+{"index": 471, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017082691192626953, "prompt_chars": 752, "max_tokens": 128}
+{"index": 472, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016679763793945312, "prompt_chars": 390, "max_tokens": 128}
+{"index": 473, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017774105072021484, "prompt_chars": 433, "max_tokens": 128}
+{"index": 474, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017445087432861328, "prompt_chars": 359, "max_tokens": 128}
+{"index": 475, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016257762908935547, "prompt_chars": 370, "max_tokens": 128}
+{"index": 476, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001699209213256836, "prompt_chars": 384, "max_tokens": 128}
+{"index": 477, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016558170318603516, "prompt_chars": 413, "max_tokens": 128}
+{"index": 478, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016329288482666016, "prompt_chars": 605, "max_tokens": 128}
+{"index": 479, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017132759094238281, "prompt_chars": 658, "max_tokens": 128}
+{"index": 480, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020728111267089844, "prompt_chars": 394, "max_tokens": 128}
+{"index": 481, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018563270568847656, "prompt_chars": 344, "max_tokens": 128}
+{"index": 482, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001840829849243164, "prompt_chars": 240, "max_tokens": 128}
+{"index": 483, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018417835235595703, "prompt_chars": 611, "max_tokens": 128}
+{"index": 484, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001722097396850586, "prompt_chars": 473, "max_tokens": 128}
+{"index": 485, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017764568328857422, "prompt_chars": 392, "max_tokens": 128}
+{"index": 486, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0026102066040039062, "prompt_chars": 314, "max_tokens": 128}
+{"index": 487, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019092559814453125, "prompt_chars": 438, "max_tokens": 128}
+{"index": 488, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017590522766113281, "prompt_chars": 336, "max_tokens": 128}
+{"index": 489, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018711090087890625, "prompt_chars": 807, "max_tokens": 128}
+{"index": 490, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018219947814941406, "prompt_chars": 398, "max_tokens": 128}
+{"index": 491, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002147674560546875, "prompt_chars": 674, "max_tokens": 128}
+{"index": 492, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018572807312011719, "prompt_chars": 394, "max_tokens": 128}
+{"index": 493, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002053499221801758, "prompt_chars": 1263, "max_tokens": 128}
+{"index": 494, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001813650131225586, "prompt_chars": 671, "max_tokens": 128}
+{"index": 495, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019102096557617188, "prompt_chars": 497, "max_tokens": 128}
+{"index": 496, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020294189453125, "prompt_chars": 385, "max_tokens": 128}
+{"index": 497, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001809835433959961, "prompt_chars": 588, "max_tokens": 128}
+{"index": 498, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018551349639892578, "prompt_chars": 234, "max_tokens": 128}
+{"index": 499, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020058155059814453, "prompt_chars": 1048, "max_tokens": 128}
+{"index": 500, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018954277038574219, "prompt_chars": 460, "max_tokens": 128}
+{"index": 501, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019731521606445312, "prompt_chars": 700, "max_tokens": 128}
+{"index": 502, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018429756164550781, "prompt_chars": 605, "max_tokens": 128}
+{"index": 503, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002024412155151367, "prompt_chars": 1051, "max_tokens": 128}
+{"index": 504, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020296573638916016, "prompt_chars": 611, "max_tokens": 128}
+{"index": 505, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001973867416381836, "prompt_chars": 265, "max_tokens": 128}
+{"index": 506, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0024309158325195312, "prompt_chars": 380, "max_tokens": 128}
+{"index": 507, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0029458999633789062, "prompt_chars": 803, "max_tokens": 128}
+{"index": 508, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0036017894744873047, "prompt_chars": 774, "max_tokens": 128}
+{"index": 509, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0024611949920654297, "prompt_chars": 488, "max_tokens": 128}
+{"index": 510, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0033385753631591797, "prompt_chars": 574, "max_tokens": 128}
+{"index": 511, "source": "humaneval", "endpoint": "/completion", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0034096240997314453, "prompt_chars": 924, "max_tokens": 128}
+{"index": 512, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0028574466705322266, "prompt_chars": 121, "max_tokens": 128}
+{"index": 513, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0025887489318847656, "prompt_chars": 124, "max_tokens": 128}
+{"index": 514, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020334720611572266, "prompt_chars": 68, "max_tokens": 128}
+{"index": 515, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002458810806274414, "prompt_chars": 42, "max_tokens": 128}
+{"index": 516, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018601417541503906, "prompt_chars": 135, "max_tokens": 128}
+{"index": 517, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017805099487304688, "prompt_chars": 167, "max_tokens": 128}
+{"index": 518, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001748800277709961, "prompt_chars": 65, "max_tokens": 128}
+{"index": 519, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017137527465820312, "prompt_chars": 64, "max_tokens": 128}
+{"index": 520, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001634836196899414, "prompt_chars": 118, "max_tokens": 128}
+{"index": 521, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001775503158569336, "prompt_chars": 65, "max_tokens": 128}
+{"index": 522, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018002986907958984, "prompt_chars": 70, "max_tokens": 128}
+{"index": 523, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001796722412109375, "prompt_chars": 37, "max_tokens": 128}
+{"index": 524, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017056465148925781, "prompt_chars": 41, "max_tokens": 128}
+{"index": 525, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001947641372680664, "prompt_chars": 157, "max_tokens": 128}
+{"index": 526, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002951383590698242, "prompt_chars": 141, "max_tokens": 128}
+{"index": 527, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0029244422912597656, "prompt_chars": 64, "max_tokens": 128}
+{"index": 528, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0034999847412109375, "prompt_chars": 128, "max_tokens": 128}
+{"index": 529, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0035588741302490234, "prompt_chars": 46, "max_tokens": 128}
+{"index": 530, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0026192665100097656, "prompt_chars": 130, "max_tokens": 128}
+{"index": 531, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003606081008911133, "prompt_chars": 105, "max_tokens": 128}
+{"index": 532, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0025720596313476562, "prompt_chars": 49, "max_tokens": 128}
+{"index": 533, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0035409927368164062, "prompt_chars": 95, "max_tokens": 128}
+{"index": 534, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0035843849182128906, "prompt_chars": 69, "max_tokens": 128}
+{"index": 535, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0032835006713867188, "prompt_chars": 69, "max_tokens": 128}
+{"index": 536, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020797252655029297, "prompt_chars": 83, "max_tokens": 128}
+{"index": 537, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020394325256347656, "prompt_chars": 42, "max_tokens": 128}
+{"index": 538, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018672943115234375, "prompt_chars": 328, "max_tokens": 128}
+{"index": 539, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001977682113647461, "prompt_chars": 65, "max_tokens": 128}
+{"index": 540, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0030384063720703125, "prompt_chars": 37, "max_tokens": 128}
+{"index": 541, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0021555423736572266, "prompt_chars": 58, "max_tokens": 128}
+{"index": 542, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019795894622802734, "prompt_chars": 81, "max_tokens": 128}
+{"index": 543, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019762516021728516, "prompt_chars": 390, "max_tokens": 128}
+{"index": 544, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001912832260131836, "prompt_chars": 41, "max_tokens": 128}
+{"index": 545, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018863677978515625, "prompt_chars": 55, "max_tokens": 128}
+{"index": 546, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017850399017333984, "prompt_chars": 40, "max_tokens": 128}
+{"index": 547, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017285346984863281, "prompt_chars": 72, "max_tokens": 128}
+{"index": 548, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001706838607788086, "prompt_chars": 62, "max_tokens": 128}
+{"index": 549, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001783132553100586, "prompt_chars": 72, "max_tokens": 128}
+{"index": 550, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017902851104736328, "prompt_chars": 143, "max_tokens": 128}
+{"index": 551, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018112659454345703, "prompt_chars": 90, "max_tokens": 128}
+{"index": 552, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017046928405761719, "prompt_chars": 36, "max_tokens": 128}
+{"index": 553, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017063617706298828, "prompt_chars": 53, "max_tokens": 128}
+{"index": 554, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001730203628540039, "prompt_chars": 89, "max_tokens": 128}
+{"index": 555, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018420219421386719, "prompt_chars": 72, "max_tokens": 128}
+{"index": 556, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016851425170898438, "prompt_chars": 54, "max_tokens": 128}
+{"index": 557, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017137527465820312, "prompt_chars": 163, "max_tokens": 128}
+{"index": 558, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017292499542236328, "prompt_chars": 122, "max_tokens": 128}
+{"index": 559, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017859935760498047, "prompt_chars": 106, "max_tokens": 128}
+{"index": 560, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001837015151977539, "prompt_chars": 68, "max_tokens": 128}
+{"index": 561, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001756906509399414, "prompt_chars": 59, "max_tokens": 128}
+{"index": 562, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018002986907958984, "prompt_chars": 208, "max_tokens": 128}
+{"index": 563, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016658306121826172, "prompt_chars": 53, "max_tokens": 128}
+{"index": 564, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018076896667480469, "prompt_chars": 72, "max_tokens": 128}
+{"index": 565, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017511844635009766, "prompt_chars": 57, "max_tokens": 128}
+{"index": 566, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018849372863769531, "prompt_chars": 66, "max_tokens": 128}
+{"index": 567, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018308162689208984, "prompt_chars": 66, "max_tokens": 128}
+{"index": 568, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017366409301757812, "prompt_chars": 109, "max_tokens": 128}
+{"index": 569, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017855167388916016, "prompt_chars": 76, "max_tokens": 128}
+{"index": 570, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017085075378417969, "prompt_chars": 64, "max_tokens": 128}
+{"index": 571, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001683950424194336, "prompt_chars": 71, "max_tokens": 128}
+{"index": 572, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001707315444946289, "prompt_chars": 62, "max_tokens": 128}
+{"index": 573, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017638206481933594, "prompt_chars": 58, "max_tokens": 128}
+{"index": 574, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017275810241699219, "prompt_chars": 142, "max_tokens": 128}
+{"index": 575, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016789436340332031, "prompt_chars": 89, "max_tokens": 128}
+{"index": 576, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018718242645263672, "prompt_chars": 71, "max_tokens": 128}
+{"index": 577, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0016472339630126953, "prompt_chars": 49, "max_tokens": 128}
+{"index": 578, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018732547760009766, "prompt_chars": 55, "max_tokens": 128}
+{"index": 579, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018529891967773438, "prompt_chars": 82, "max_tokens": 128}
+{"index": 580, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018663406372070312, "prompt_chars": 75, "max_tokens": 128}
+{"index": 581, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017273426055908203, "prompt_chars": 36, "max_tokens": 128}
+{"index": 582, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0017902851104736328, "prompt_chars": 60, "max_tokens": 128}
+{"index": 583, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018470287322998047, "prompt_chars": 68, "max_tokens": 128}
+{"index": 584, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018887519836425781, "prompt_chars": 43, "max_tokens": 128}
+{"index": 585, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020644664764404297, "prompt_chars": 101, "max_tokens": 128}
+{"index": 586, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001989603042602539, "prompt_chars": 121, "max_tokens": 128}
+{"index": 587, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018644332885742188, "prompt_chars": 61, "max_tokens": 128}
+{"index": 588, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001947641372680664, "prompt_chars": 70, "max_tokens": 128}
+{"index": 589, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.001905202865600586, "prompt_chars": 46, "max_tokens": 128}
+{"index": 590, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019092559814453125, "prompt_chars": 49, "max_tokens": 128}
+{"index": 591, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018053054809570312, "prompt_chars": 41, "max_tokens": 128}
+{"index": 592, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.004427194595336914, "prompt_chars": 88, "max_tokens": 128}
+{"index": 593, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003930568695068359, "prompt_chars": 53, "max_tokens": 128}
+{"index": 594, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0035011768341064453, "prompt_chars": 77, "max_tokens": 128}
+{"index": 595, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002569437026977539, "prompt_chars": 136, "max_tokens": 128}
+{"index": 596, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0026395320892333984, "prompt_chars": 107, "max_tokens": 128}
+{"index": 597, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002321958541870117, "prompt_chars": 49, "max_tokens": 128}
+{"index": 598, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003465414047241211, "prompt_chars": 51, "max_tokens": 128}
+{"index": 599, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003473997116088867, "prompt_chars": 96, "max_tokens": 128}
+{"index": 600, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0034165382385253906, "prompt_chars": 80, "max_tokens": 128}
+{"index": 601, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.00333404541015625, "prompt_chars": 41, "max_tokens": 128}
+{"index": 602, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0033817291259765625, "prompt_chars": 40, "max_tokens": 128}
+{"index": 603, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002829313278198242, "prompt_chars": 70, "max_tokens": 128}
+{"index": 604, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002296924591064453, "prompt_chars": 118, "max_tokens": 128}
+{"index": 605, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0025179386138916016, "prompt_chars": 93, "max_tokens": 128}
+{"index": 606, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0026159286499023438, "prompt_chars": 50, "max_tokens": 128}
+{"index": 607, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0028951168060302734, "prompt_chars": 37, "max_tokens": 128}
+{"index": 608, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0033261775970458984, "prompt_chars": 82, "max_tokens": 128}
+{"index": 609, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0032885074615478516, "prompt_chars": 60, "max_tokens": 128}
+{"index": 610, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0025298595428466797, "prompt_chars": 63, "max_tokens": 128}
+{"index": 611, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.003000974655151367, "prompt_chars": 129, "max_tokens": 128}
+{"index": 612, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0032279491424560547, "prompt_chars": 192, "max_tokens": 128}
+{"index": 613, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002147674560546875, "prompt_chars": 61, "max_tokens": 128}
+{"index": 614, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0021626949310302734, "prompt_chars": 62, "max_tokens": 128}
+{"index": 615, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018618106842041016, "prompt_chars": 55, "max_tokens": 128}
+{"index": 616, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018830299377441406, "prompt_chars": 65, "max_tokens": 128}
+{"index": 617, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018737316131591797, "prompt_chars": 32, "max_tokens": 128}
+{"index": 618, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018227100372314453, "prompt_chars": 57, "max_tokens": 128}
+{"index": 619, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0021016597747802734, "prompt_chars": 49, "max_tokens": 128}
+{"index": 620, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018584728240966797, "prompt_chars": 148, "max_tokens": 128}
+{"index": 621, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018029212951660156, "prompt_chars": 77, "max_tokens": 128}
+{"index": 622, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018036365509033203, "prompt_chars": 96, "max_tokens": 128}
+{"index": 623, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.00183868408203125, "prompt_chars": 42, "max_tokens": 128}
+{"index": 624, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019314289093017578, "prompt_chars": 176, "max_tokens": 128}
+{"index": 625, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018191337585449219, "prompt_chars": 158, "max_tokens": 128}
+{"index": 626, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002028226852416992, "prompt_chars": 78, "max_tokens": 128}
+{"index": 627, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002058744430541992, "prompt_chars": 253, "max_tokens": 128}
+{"index": 628, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020551681518554688, "prompt_chars": 64, "max_tokens": 128}
+{"index": 629, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0019404888153076172, "prompt_chars": 89, "max_tokens": 128}
+{"index": 630, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002271413803100586, "prompt_chars": 84, "max_tokens": 128}
+{"index": 631, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002530813217163086, "prompt_chars": 81, "max_tokens": 128}
+{"index": 632, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018417835235595703, "prompt_chars": 75, "max_tokens": 128}
+{"index": 633, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020046234130859375, "prompt_chars": 76, "max_tokens": 128}
+{"index": 634, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020036697387695312, "prompt_chars": 71, "max_tokens": 128}
+{"index": 635, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002074718475341797, "prompt_chars": 102, "max_tokens": 128}
+{"index": 636, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002048492431640625, "prompt_chars": 38, "max_tokens": 128}
+{"index": 637, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0020132064819335938, "prompt_chars": 37, "max_tokens": 128}
+{"index": 638, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.002063274383544922, "prompt_chars": 50, "max_tokens": 128}
+{"index": 639, "source": "alpaca", "endpoint": "/v1/chat/completions", "ok": false, "error": "HTTP Error 502: Bad Gateway", "elapsed_s": 0.0018336772918701172, "prompt_chars": 110, "max_tokens": 128}

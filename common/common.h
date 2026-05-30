@@ -682,6 +682,7 @@ struct common_params {
 
     // common params
     std::string out_file; // output filename for all example programs
+    std::string graph_out_file; // output filename for graph JSON exports
     // optional callback for model loading progress and cancellation:
     // called with a progress value between 0.0 and 1.0.
     // return false from callback to abort model loading or true to continue
