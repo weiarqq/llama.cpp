@@ -82,6 +82,7 @@ int g_ggml_sycl_use_async_mem_op = 0;
 int g_ggml_sycl_use_async_mem_op_requested = 1;
 int g_ggml_sycl_enable_level_zero = 0;
 int g_ggml_sycl_enable_flash_attention = 1;
+int g_ggml_sycl_disable_xmx_mmq = 0;
 
 
 static ggml_sycl_device_info ggml_sycl_init() {
@@ -134,6 +135,7 @@ static ggml_sycl_device_info ggml_sycl_init() {
             100 * prop.get_major_version() + 10 * prop.get_minor_version();
         info.devices[i].nsm = prop.get_max_compute_units() / 16; //16: Number of Xe Cores
         info.devices[i].opt_feature.reorder = device.ext_oneapi_architecture_is(syclex::arch_category::intel_gpu);
+        info.devices[i].opt_feature.xmx = gpu_has_xmx(device);
         info.devices[i].smpbo = prop.get_local_mem_size();
         info.devices[i].warp_size = WARP_SIZE;
 
@@ -186,9 +188,9 @@ static void print_device_detail(int id, sycl::device &device, std::string device
 static void print_device_opt_feature(int device_count) {
     GGML_LOG_INFO("SYCL Optimization Feature:\n");
     GGML_LOG_INFO(
-        "|ID|        Device Type|Reorder|\n");
+        "|ID|        Device Type|Reorder|XMX|\n");
     GGML_LOG_INFO(
-        "|--|-------------------|-------|\n");
+        "|--|-------------------|-------|---|\n");
     std::map<std::string, size_t> DeviceNums;
     for (int id = 0; id < device_count; ++id) {
       sycl::device device = dpct::dev_mgr::instance().get_device(id);
@@ -199,8 +201,9 @@ static void print_device_opt_feature(int device_count) {
                   << "]";
       std::string device_type_s = device_type.str();
       device_type_s = std::regex_replace(device_type_s, std::regex("ext_oneapi_"), "");
-      GGML_LOG_INFO("|%2d|%19s|%7s|\n", id, device_type_s.c_str(),
-        ggml_sycl_info().devices[id].opt_feature.reorder ? "Y": "N");
+      GGML_LOG_INFO("|%2d|%19s|%7s|%3s|\n", id, device_type_s.c_str(),
+        ggml_sycl_info().devices[id].opt_feature.reorder ? "Y": "N",
+        ggml_sycl_info().devices[id].opt_feature.xmx ? "Y": "N");
     }
 
 }
@@ -260,6 +263,7 @@ static void ggml_check_sycl() try {
         g_ggml_sycl_disable_dnn = get_sycl_env("GGML_SYCL_DISABLE_DNN", 0);
         g_ggml_sycl_enable_vmm = get_sycl_env("GGML_SYCL_ENABLE_VMM", 1);
         g_ggml_sycl_prioritize_dmmv = get_sycl_env("GGML_SYCL_PRIORITIZE_DMMV", 0);
+        g_ggml_sycl_disable_xmx_mmq = get_sycl_env("GGML_SYCL_DISABLE_XMX_MMQ", 0);
 #ifdef GGML_SYCL_SUPPORT_LEVEL_ZERO
         g_ggml_sycl_enable_level_zero = get_sycl_env("GGML_SYCL_ENABLE_LEVEL_ZERO", ggml_sycl_info().ext_oneapi_level_zero);
 #else
@@ -330,6 +334,7 @@ static void ggml_check_sycl() try {
         GGML_LOG_INFO("  GGML_SYCL_ENABLE_VMM: virtual memory extension is not available\n");
 #endif
         GGML_LOG_INFO("  GGML_SYCL_PRIORITIZE_DMMV: %d\n", g_ggml_sycl_prioritize_dmmv);
+        GGML_LOG_INFO("  GGML_SYCL_DISABLE_XMX_MMQ: %d\n", g_ggml_sycl_disable_xmx_mmq);
         g_ggml_sycl_use_async_mem_op_requested = get_sycl_env("GGML_SYCL_USE_ASYNC_MEM_OP", 1);
         GGML_LOG_INFO("  GGML_SYCL_USE_ASYNC_MEM_OP: %d\n", g_ggml_sycl_use_async_mem_op_requested);
 
@@ -3544,6 +3549,43 @@ inline bool ggml_sycl_supports_mmq(enum ggml_type type) {
     return false;
 }
 
+inline bool ggml_sycl_supports_xmx_mmq_type(enum ggml_type type) {
+    switch (type) {
+        case GGML_TYPE_Q4_0:
+        case GGML_TYPE_Q8_0:
+        case GGML_TYPE_Q4_K:
+        case GGML_TYPE_Q5_K:
+        case GGML_TYPE_Q6_K:
+            return true;
+        default:
+            return false;
+    }
+}
+
+static bool ggml_sycl_can_use_xmx_mmq(
+        const ggml_backend_sycl_context & ctx,
+        const ggml_tensor * src0,
+        const ggml_tensor * src1,
+        const ggml_tensor * dst,
+        bool split) {
+#if defined(SYCL_USE_XMX)
+    return !g_ggml_sycl_disable_xmx_mmq &&
+        !split &&
+        ctx.opt_feature.xmx &&
+        ggml_sycl_supports_xmx_mmq_type(src0->type) &&
+        src1->type == GGML_TYPE_F32 &&
+        dst->type == GGML_TYPE_F32 &&
+        src1->ne[1] <= MMQ_MAX_BATCH_SIZE;
+#else
+    GGML_UNUSED(ctx);
+    GGML_UNUSED(src0);
+    GGML_UNUSED(src1);
+    GGML_UNUSED(dst);
+    GGML_UNUSED(split);
+    return false;
+#endif
+}
+
 inline bool ggml_sycl_supports_reorder_mul_mat_sycl(enum ggml_type type) {
     switch (type) {
         case GGML_TYPE_Q4_0:
@@ -4000,8 +4042,10 @@ static void ggml_sycl_mul_mat(ggml_backend_sycl_context & ctx, const ggml_tensor
 
     bool use_mul_mat_vec_q = can_use_mul_mat_vec_q(src0, src1, dst);
 
-    bool use_mul_mat_q =  ggml_sycl_supports_mmq(src0->type)
+    bool use_mul_mat_q = ggml_sycl_supports_mmq(src0->type)
         && src1->type == GGML_TYPE_F32 && dst->type == GGML_TYPE_F32;
+
+    use_mul_mat_q = use_mul_mat_q || ggml_sycl_can_use_xmx_mmq(ctx, src0, src1, dst, split);
 
 
     // mmvq and mmq need the __dp4a instruction which is available for gen12+
