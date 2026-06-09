@@ -70,6 +70,7 @@
 #include "ggml-sycl/diag.hpp"
 #include "ggml-sycl/solve_tri.hpp"
 #include "ggml-sycl/gated_delta_net.hpp"
+#include "ggml-sycl/dpas_mmq.hpp"
 
 static bool g_sycl_loaded = false;
 int g_ggml_sycl_debug = 0;
@@ -3538,10 +3539,19 @@ enum class mul_mat_algo {
     MUL_MAT_SYCL = 2,
 };
 
-inline bool ggml_sycl_supports_mmq(enum ggml_type type) {
-    // TODO: accuracy issues in MMQ
-    GGML_UNUSED(type);
-    return false;
+inline bool ggml_sycl_supports_mmq(enum ggml_type type, sycl::device &dev) {
+    // Check if XMX/DPAS is available
+    if (!gpu_has_dpas(dev)) {
+        return false;
+    }
+    // Types supported by DPAS path
+    switch (type) {
+        case GGML_TYPE_Q4_0:
+        case GGML_TYPE_Q8_0:
+            return true;
+        default:
+            return false;
+    }
 }
 
 inline bool ggml_sycl_supports_reorder_mul_mat_sycl(enum ggml_type type) {
@@ -4054,16 +4064,28 @@ static void ggml_sycl_mul_mat(ggml_backend_sycl_context & ctx, const ggml_tensor
 
     bool use_mul_mat_vec_q = can_use_mul_mat_vec_q(src0, src1, dst);
 
-    bool use_mul_mat_q =  ggml_sycl_supports_mmq(src0->type)
+    // Check for DPAS/XMX support
+    bool has_dpas = gpu_has_dpas(ctx.stream()->get_device());
+
+    bool use_mul_mat_q = (has_dpas
+            ? ggml_sycl_supports_mmq(src0->type, ctx.stream()->get_device())
+            : false)
         && src1->type == GGML_TYPE_F32 && dst->type == GGML_TYPE_F32;
 
+    bool use_mul_mat_q_dpas = has_dpas && use_mul_mat_q;
 
     // mmvq and mmq need the __dp4a instruction which is available for gen12+
-    // Workaround in https://github.com/ggml-org/llama.cpp/commit/95f84d5ce8b449a9b16009434aca800df504a02e
     use_mul_mat_q = use_mul_mat_q && (src0->type != GGML_TYPE_IQ2_XXS);
-#ifdef SYCL_USE_XMX
-    use_mul_mat_q = use_mul_mat_q && (src1->ne[1] <= MMQ_MAX_BATCH_SIZE);
-#endif // SYCL_USE_XMX
+    // DPAS MMQ only supports Q4_0/Q8_0, doesn't need dp4a
+    use_mul_mat_q_dpas = use_mul_mat_q_dpas
+        && (src0->type == GGML_TYPE_Q4_0 || src0->type == GGML_TYPE_Q8_0);
+#ifndef SYCL_USE_XMX
+    use_mul_mat_q_dpas = false; // only enable when SYCL_USE_XMX defined
+#endif
+
+    if (use_mul_mat_q_dpas) {
+        use_mul_mat_q = false; // DPAS takes precedence
+    }
 
     // Dispatch becomes obscure with the reorder, MMVQ when the reorder optimization
     // is enabled takes precedence over DMMV, the current if-else implementation
@@ -4107,6 +4129,8 @@ static void ggml_sycl_mul_mat(ggml_backend_sycl_context & ctx, const ggml_tensor
         } else {
             ggml_sycl_op_mul_mat<quantize_q8_1>(ctx, src0, src1, dst, ggml_sycl_op_mul_mat_vec_q);
         }
+    } else if (use_mul_mat_q_dpas) {
+        ggml_sycl_op_mul_mat<quantize_q8_1>(ctx, src0, src1, dst, ggml_sycl_op_mul_mat_dpas);
     } else if (use_mul_mat_q) {
         ggml_sycl_op_mul_mat<quantize_q8_1>(ctx, src0, src1, dst, ggml_sycl_op_mul_mat_q);
     } else {
